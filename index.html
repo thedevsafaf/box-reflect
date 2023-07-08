@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Reflect CSS</title>
+    <style>
+        body{
+            background: #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            border: 3px goldenrod groove;
+            margin: 40px auto;
+            border-bottom: none;
+            -webkit-box-reflect: below 3px linear-gradient(transparent 0%, white 90%);
+        }
+    </style>
+</head>
+<body>
+    <img src="car.jpg" alt="image" width="400px">
+</body>
+</html>
